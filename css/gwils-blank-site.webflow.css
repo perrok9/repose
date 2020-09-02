@@ -1,0 +1,53 @@
+.body {
+  margin-top: 220px;
+  background-color: #000;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.container {
+  padding: 220px 0px;
+  cursor: pointer;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.button {
+  display: block;
+  width: 63.921875px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 4px;
+  padding-left: 15px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background-color: rgba(180, 180, 180, 0.37);
+  color: #bbe7ec;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.button.w--current {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border-radius: 20px;
+  background-color: rgba(253, 254, 255, 0.51);
+  opacity: 0.88;
+  color: #d8fbff;
+}
