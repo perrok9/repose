@@ -1,9 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="743" scrolly="392.99999999999994" scale="0.9">
+  <tab name="init" type="InitTab" active="false" scrollx="743" scrolly="393" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="=V1l;a5dzpWBmT#)h;wb" x="-470" y="-350">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">TRUE</field>
-      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
       <field name="PRESERVE_DRAW_BUF">TRUE</field>
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
@@ -110,22 +110,22 @@
           <mutation items="4"/>
           <value name="ADD0">
             <block type="objectList" id="V$iu.q5t.W,(@dZ~I_;j">
-              <field name="FIELDNAME">Aset_edible_fruit_S_ujbjdalva_LOD4</field>
+              <field name="FIELDNAME">applecore</field>
             </block>
           </value>
           <value name="ADD1">
             <block type="objectList" id="I,@2A(YGraGyleTL/@a(">
-              <field name="FIELDNAME">Aset_food_fruit_S_teypehhra_LOD3</field>
+              <field name="FIELDNAME">avocado</field>
             </block>
           </value>
           <value name="ADD2">
             <block type="objectList" id="g},BO7^-R+IEv!04sroc">
-              <field name="FIELDNAME">Aset_misc__S_ucdmchzhw_LOD5</field>
+              <field name="FIELDNAME">cactus</field>
             </block>
           </value>
           <value name="ADD3">
             <block type="objectList" id="0|+*vM(H3!2)C[27t7c2">
-              <field name="FIELDNAME">Aset_other__S_uenkeewfa_LOD5</field>
+              <field name="FIELDNAME">football</field>
             </block>
           </value>
         </block>
