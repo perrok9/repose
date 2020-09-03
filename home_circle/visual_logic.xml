@@ -1,109 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="743" scrolly="392.99999999999994" scale="0.9">
-    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="=V1l;a5dzpWBmT#)h;wb" x="-470" y="-350">
+  <tab name="init" type="InitTab" active="true" scrollx="743" scrolly="392.99999999999994" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="=V1l;a5dzpWBmT#)h;wb" disabled="true" x="-470" y="-350">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">TRUE</field>
       <field name="BKG_TRANSPARENCY">FALSE</field>
       <field name="PRESERVE_DRAW_BUF">TRUE</field>
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="HHgM0kRiWk}_jJ[AlfLp" x="-510" y="-110">
-      <field name="EVENT">keyup</field>
-      <field name="PARENT">FALSE</field>
-      <value name="ID">
-        <block type="DOMObjectSelector" id="RLnDIkE^*nVGWVWOY7f/">
-          <field name="DOM_OBJECT">DOCUMENT</field>
-        </block>
-      </value>
-      <statement name="DO">
-        <block type="controls_if" id="H_a1!Gj.paB1_Cm:D*)|">
-          <mutation elseif="2"/>
-          <value name="IF0">
-            <block type="logic_compare" id="4ptnDm{$$YiVOTNGS-?!">
-              <field name="OP">EQ</field>
-              <value name="A">
-                <block type="getEventProperty" id=",Pk)Rn^BUy)[FDn$2*Ft">
-                  <field name="PROPERTY">key</field>
-                </block>
-              </value>
-              <value name="B">
-                <block type="text" id=".A7E,zf(AaK,{0cOS|1T">
-                  <field name="TEXT">ArrowLeft</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <statement name="DO0">
-            <block type="console.log" id="lU{S1H=YO=ErfOR~)lk;">
-              <value name="VALUE">
-                <shadow xmlns="http://www.w3.org/1999/xhtml" type="text">
-                  <field name="TEXT">go left!</field>
-                </shadow>
-                <block type="text" id="r?+jtro^{Lee-hK2rz4z">
-                  <field name="TEXT">go left!</field>
-                </block>
-              </value>
-            </block>
-          </statement>
-          <value name="IF1">
-            <block type="logic_compare" id="ws*dH9di!`Tedy;hly=Z">
-              <field name="OP">EQ</field>
-              <value name="A">
-                <block type="getEventProperty" id="sda((whr^H[d86S-rIA`">
-                  <field name="PROPERTY">key</field>
-                </block>
-              </value>
-              <value name="B">
-                <block type="text" id="URT]~V!-55_TVt**aTg%">
-                  <field name="TEXT">ArrowRight</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <statement name="DO1">
-            <block type="console.log" id="mMl;uhgm.+W[)w]vwa}L">
-              <value name="VALUE">
-                <shadow xmlns="http://www.w3.org/1999/xhtml" type="text">
-                  <field name="TEXT">go right!</field>
-                </shadow>
-                <block type="text" id="5ZJ.q[J[1G/:5VN^C/?1">
-                  <field name="TEXT">go right!</field>
-                </block>
-              </value>
-            </block>
-          </statement>
-          <value name="IF2">
-            <block type="logic_compare" id="[h-MGuXHv8jKHV4tE^]@">
-              <field name="OP">EQ</field>
-              <value name="A">
-                <block type="getEventProperty" id="k,eRA@UoY_oq:O!YBrm!">
-                  <field name="PROPERTY">key</field>
-                </block>
-              </value>
-              <value name="B">
-                <block type="text" id="sr.+P;b4$s]@%dHBSd2]">
-                  <field name="TEXT"> </field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <statement name="DO2">
-            <block type="console.log" id="]?@rV@/_u2vM4YDMqaI{">
-              <value name="VALUE">
-                <shadow xmlns="http://www.w3.org/1999/xhtml" type="text">
-                  <field name="TEXT">go right!</field>
-                </shadow>
-                <block type="text" id="vSGIhJE`+u159`gA]+Ou">
-                  <field name="TEXT">jump!</field>
-                </block>
-              </value>
-            </block>
-          </statement>
-        </block>
-      </statement>
-    </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="743" scrolly="393" scale="0.9">
+  <tab name="main" type="MainTab" active="false" scrollx="743" scrolly="393" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="V^2T/:1;j,Nhw9{_hA5{" x="-710" y="-310">
       <value name="VALUE">
         <block type="lists_create_with" id=";HA]Hj4b#umMhB))KZgC">
