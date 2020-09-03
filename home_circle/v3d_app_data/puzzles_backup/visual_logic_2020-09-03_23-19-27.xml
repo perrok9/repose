@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="743" scrolly="392.99999999999994" scale="0.9">
+  <tab name="init" type="InitTab" active="true" scrollx="743" scrolly="392.99999999999994" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="=V1l;a5dzpWBmT#)h;wb" disabled="true" x="-470" y="-350">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">TRUE</field>
@@ -8,29 +8,29 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="743" scrolly="393" scale="0.9">
+  <tab name="main" type="MainTab" active="false" scrollx="743" scrolly="393" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="V^2T/:1;j,Nhw9{_hA5{" x="-710" y="-310">
       <value name="VALUE">
         <block type="lists_create_with" id=";HA]Hj4b#umMhB))KZgC">
           <mutation items="4"/>
           <value name="ADD0">
             <block type="objectList" id="V$iu.q5t.W,(@dZ~I_;j">
-              <field name="FIELDNAME">applecore</field>
+              <field name="FIELDNAME">Aset_edible_fruit_S_ujbjdalva_LOD4</field>
             </block>
           </value>
           <value name="ADD1">
             <block type="objectList" id="I,@2A(YGraGyleTL/@a(">
-              <field name="FIELDNAME">avo</field>
+              <field name="FIELDNAME">Aset_food_fruit_S_teypehhra_LOD3</field>
             </block>
           </value>
           <value name="ADD2">
             <block type="objectList" id="g},BO7^-R+IEv!04sroc">
-              <field name="FIELDNAME">cactus</field>
+              <field name="FIELDNAME">Aset_misc__S_ucdmchzhw_LOD5</field>
             </block>
           </value>
           <value name="ADD3">
             <block type="objectList" id="0|+*vM(H3!2)C[27t7c2">
-              <field name="FIELDNAME">football</field>
+              <field name="FIELDNAME">Aset_other__S_uenkeewfa_LOD5</field>
             </block>
           </value>
         </block>
@@ -90,7 +90,7 @@
           <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
           <value name="VALUE">
             <block type="objectList" id="Fq6Vi)gI8z*!2^12yqCC">
-              <field name="FIELDNAME">avo</field>
+              <field name="FIELDNAME">avocado</field>
             </block>
           </value>
           <statement name="DO">

@@ -90,7 +90,7 @@
           <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
           <value name="VALUE">
             <block type="objectList" id="Fq6Vi)gI8z*!2^12yqCC">
-              <field name="FIELDNAME">avo</field>
+              <field name="FIELDNAME">avocado</field>
             </block>
           </value>
           <statement name="DO">
