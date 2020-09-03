@@ -1,0 +1,166 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="743" scrolly="393" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="743" scrolly="393" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="V^2T/:1;j,Nhw9{_hA5{" x="-710" y="-310">
+      <value name="VALUE">
+        <block type="lists_create_with" id=";HA]Hj4b#umMhB))KZgC">
+          <mutation items="4"/>
+          <value name="ADD0">
+            <block type="objectList" id="V$iu.q5t.W,(@dZ~I_;j">
+              <field name="FIELDNAME">applecore</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="I,@2A(YGraGyleTL/@a(">
+              <field name="FIELDNAME">avocado</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="objectList" id="g},BO7^-R+IEv!04sroc">
+              <field name="FIELDNAME">cactus</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="objectList" id="0|+*vM(H3!2)C[27t7c2">
+              <field name="FIELDNAME">football</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setHTMLElemStyle" id="113}~?-9IEUBL,LJMkc#">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="%UA:,W4o@EX0tPx!bu%E">
+              <field name="TEXT">pointer</field>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="DOMObjectSelector" id="54IK*:][3F*n5m+8j[{i">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setHTMLElemStyle" id="5A~kbnwqU{XAw%nZA7Q~">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="NpyLN*#($`=*d}@1r`h}">
+              <field name="TEXT">default</field>
+            </block>
+          </value>
+          <value name="ID">
+            <block type="DOMObjectSelector" id="u6b0l$-5#8.%ysdjhECF">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="%2[fSb3EmR!vZUotR-:P" x="-690" y="10">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="qj{!KxK3k0D8$MiIjYYh">
+          <field name="FIELDNAME">applecore</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="openWebPage" id="TCe:SUJ]itfR:V1-0Zn`">
+          <field name="MODE">NEW</field>
+          <value name="URL">
+            <shadow type="text" id="0j@^NWDqL,i`_k-2tb1W">
+              <field name="TEXT">https://repose.space/haha/HAHA.html</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="Za(;OhPixkvV.vropjq,">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+          <value name="VALUE">
+            <block type="objectList" id="Fq6Vi)gI8z*!2^12yqCC">
+              <field name="FIELDNAME">avocado</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="openWebPage" id=";{j#0Rk:sL22N=[_p#L4">
+              <field name="MODE">NEW</field>
+              <value name="URL">
+                <shadow type="text" id="zs}Cq`lni3?%r![8wKkF">
+                  <field name="TEXT">https://repose.space/video_texture_copy/video_texture.html</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="2gTFFC%Z/5%*XG1k_]x,">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+              <value name="VALUE">
+                <block type="objectList" id="[T?[qa9TwSKn7q#]Jir*">
+                  <field name="FIELDNAME">cactus</field>
+                </block>
+              </value>
+              <statement name="DO">
+                <block type="openWebPage" id="X_0xi]]M:]K)@qRg?[^(">
+                  <field name="MODE">NEW</field>
+                  <value name="URL">
+                    <shadow type="text" id="LUuAAxq!CZ,w:((3LaUl">
+                      <field name="TEXT">https://repose.space/haha/HAHA.html</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="whenClicked" id="=`4zPF8l]-=m?6_49%=1">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+                  <value name="VALUE">
+                    <block type="objectList" id="5:Z%/{JUha!U%(SE2|N}">
+                      <field name="FIELDNAME">football</field>
+                    </block>
+                  </value>
+                  <statement name="DO">
+                    <block type="openWebPage" id="m:$gYMwyfl^8[upSKEW)">
+                      <field name="MODE">NEW</field>
+                      <value name="URL">
+                        <shadow type="text" id="u][SxR`bm#}C|(5FERik">
+                          <field name="TEXT">https://repose.space/haha/HAHA.html</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="printPerformanceInfo" id="zOm3.S`Qq0wf~_W:UrFP" x="70" y="70"/>
+    <block xmlns="https://developers.google.com/blockly/xml" type="dof" id="2I[TlF`kgw#0YaCaI2zj" x="90" y="150">
+      <value name="FOCUS">
+        <shadow type="number_slider" id="bf7t)m3nwA#XwPZ)|Kw,">
+          <field name="NUM" min="0" max="100" step="0.1">5</field>
+        </shadow>
+      </value>
+      <value name="APERTURE">
+        <shadow type="number_slider" id="TRZEb9L@0KG8|TQG4rKO">
+          <field name="NUM" min="0" max="10" step="0.1">5.8</field>
+        </shadow>
+      </value>
+      <value name="MAXBLUR">
+        <shadow type="number_slider" id="ZM7^x$;DHg#BZ^h@(i`J">
+          <field name="NUM" min="0.001" max="0.1" step="0.001">0.01</field>
+        </shadow>
+      </value>
+      <value name="DEPTH_LEAK_THRESH">
+        <shadow type="number_slider" id="4.,LRE!3Q{E~MC}w6=J~">
+          <field name="NUM" min="0" max="10" step="0.1">0.2</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="975.5999999999999" viewport-y="28" viewport-w="662.4" viewport-h="431" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
