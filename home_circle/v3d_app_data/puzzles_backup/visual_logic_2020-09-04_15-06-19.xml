@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">FALSE</field>
     </block>
   </tab>
-  <tab name="main" type="MainTab" active="true" scrollx="508.1269605063276" scrolly="314.9737032388187" scale="0.579016908007807">
+  <tab name="main" type="MainTab" active="true" scrollx="422.1269605063276" scrolly="316.9737032388187" scale="0.579016908007807">
     <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="hOml.m5WRh,TR5_Y0o9o" x="-830" y="-850">
       <value name="VALUE">
         <block type="objectList" id="f3rx6fL.QnXy#FtuJQmR">
@@ -470,26 +470,6 @@
                       </value>
                     </block>
                   </statement>
-                  <next>
-                    <block type="whenClicked" id="%3yWwc#R4?[)ngn|Rq?v">
-                      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
-                      <value name="VALUE">
-                        <block type="objectList" id="=@*vYnHxaIsYli*eE8W@">
-                          <field name="FIELDNAME">door</field>
-                        </block>
-                      </value>
-                      <statement name="DO">
-                        <block type="openWebPage" id="m4([Ws-$~7}+6=ozk^_$">
-                          <field name="MODE">NEW</field>
-                          <value name="URL">
-                            <shadow type="text" id="[S)z19WTCz$lbzTJEje:">
-                              <field name="TEXT">https://repose.space/kallax.html</field>
-                            </shadow>
-                          </value>
-                        </block>
-                      </statement>
-                    </block>
-                  </next>
                 </block>
               </next>
             </block>
