@@ -556,7 +556,7 @@ registerOnHover('football', function() {
 appInstance.printPerformanceInfo();
 
 registerOnClick('applecore', function() {
-  openWebPage('https://repose.space/haha/HAHA.html', 'NEW');
+  openWebPage('https://repose.space/roller.html', 'NEW');
 }, function() {});
 registerOnClick('avo', function() {
   openWebPage('https://repose.space/video_texture_copy/video_texture.html', 'NEW');
