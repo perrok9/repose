@@ -6,6 +6,8 @@
 }
 
 .container {
+  margin-right: auto;
+  margin-left: auto;
   padding: 220px 0px;
   cursor: pointer;
   -o-object-fit: fill;
@@ -50,4 +52,64 @@
   background-color: rgba(253, 254, 255, 0.51);
   opacity: 0.88;
   color: #d8fbff;
+}
+
+.text-block {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-right: 220px;
+  padding-left: 220px;
+  color: #a5a5a5;
+  text-align: center;
+}
+
+.container-2 {
+  display: block;
+  margin-top: 220px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.container-3 {
+  margin-top: 220px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.container-4 {
+  margin-top: 220px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.body-2 {
+  background-color: #000;
+}
+
+.body-3 {
+  background-color: #000;
+}
+
+.body-4 {
+  background-color: #000;
+}
+
+@media screen and (max-width: 991px) {
+  .text-block {
+    margin-right: 140px;
+    margin-left: 140px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .text-block {
+    position: static;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
 }
