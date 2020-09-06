@@ -89,6 +89,12 @@
   padding-left: 40px;
 }
 
+.container-6 {
+  margin-top: 220px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
 .body-2 {
   background-color: #000;
 }
@@ -102,6 +108,10 @@
 }
 
 .body-5 {
+  background-color: #000;
+}
+
+.body-6 {
   background-color: #000;
 }
 
