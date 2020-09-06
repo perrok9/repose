@@ -559,7 +559,7 @@ registerOnClick('applecore', function() {
   openWebPage('https://repose.space/roller.html', 'NEW');
 }, function() {});
 registerOnClick('avo', function() {
-  openWebPage('https://repose.space/reticulate', 'NEW');
+  openWebPage('https://repose.space/reticulate.html', 'NEW');
 }, function() {});
 registerOnClick('cactus', function() {
   openWebPage('https://repose.space/haha/HAHA.html', 'NEW');
