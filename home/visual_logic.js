@@ -565,7 +565,7 @@ registerOnClick('cactus', function() {
   openWebPage('https://repose.space/haha/HAHA.html', 'NEW');
 }, function() {});
 registerOnClick('football', function() {
-  openWebPage('https://repose.space/haha/HAHA.html', 'NEW');
+  openWebPage('https://vimeo.com/455224754', 'NEW');
 }, function() {});
 registerOnClick('door', function() {
   openWebPage('https://repose.space/kallax.html', 'NEW');
