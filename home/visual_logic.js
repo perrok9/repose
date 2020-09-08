@@ -568,7 +568,7 @@ registerOnClick('football', function() {
   openWebPage('https://repose.space/window', 'NEW');
 }, function() {});
 registerOnClick('door', function() {
-  openWebPage('https://repose.space/kallax.html', 'NEW');
+  openWebPage('https://repose.space/malm.html', 'NEW');
 }, function() {});
 
 
