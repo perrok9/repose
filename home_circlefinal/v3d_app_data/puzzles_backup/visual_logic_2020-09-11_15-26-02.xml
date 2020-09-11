@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="true" scrollx="839.5" scrolly="435" scale="0.9">
+  <tab name="init" type="InitTab" active="false" scrollx="839.5" scrolly="435" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="d/Z#0R$M{awe[rl/@:WL" x="-750" y="-410">
       <field name="LOAD_COMP_ASSETS">TRUE</field>
       <field name="FULLSCREEN">TRUE</field>
@@ -7,50 +7,8 @@
       <field name="PRESERVE_DRAW_BUF">FALSE</field>
       <field name="FADE_ANNOTATIONS">FALSE</field>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="5fp6HOC+@6g4AX:{pKb^" x="-850" y="-110">
-      <statement name="DO_PROGRESS">
-        <block type="setHTMLElemStyle" id="S.j?7q;{|dK)A-]071g)">
-          <field name="PROPERTY">width</field>
-          <field name="PARENT">FALSE</field>
-          <value name="VALUE">
-            <block type="text_join" id="5B-Lri1^8e.JATW]f|,%">
-              <mutation items="2"/>
-              <value name="ADD0">
-                <block type="percentage" id="r`w*Sv@{[0QL!UArXg=J"/>
-              </value>
-              <value name="ADD1">
-                <block type="text" id="g7PXaQM@h8t+hAv8${h+">
-                  <field name="TEXT">%</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="ID">
-            <block type="text" id="/t7$#]y5By_:)mOiyuC^">
-              <field name="TEXT">loader</field>
-            </block>
-          </value>
-        </block>
-      </statement>
-      <statement name="DO_END">
-        <block type="setHTMLElemStyle" id="Tr/u:NX!f6Gh~J]Nki=7">
-          <field name="PROPERTY">display</field>
-          <field name="PARENT">FALSE</field>
-          <value name="VALUE">
-            <block type="text" id="_4U._`{S(}W!FPxa)0]6">
-              <field name="TEXT">none</field>
-            </block>
-          </value>
-          <value name="ID">
-            <block type="text" id="!HSBes0;yPP?~ip4b:bJ">
-              <field name="TEXT">preloader_div</field>
-            </block>
-          </value>
-        </block>
-      </statement>
-    </block>
   </tab>
-  <tab name="main" type="MainTab" active="false" scrollx="522.6221901219365" scrolly="339.97294072423074" scale="0.5835546495356569">
+  <tab name="main" type="MainTab" active="true" scrollx="522.6221901219365" scrolly="339.97294072423074" scale="0.5835546495356569">
     <block xmlns="https://developers.google.com/blockly/xml" type="printPerformanceInfo" id="-CFJEI1pDzA@zciMS-5=" x="-50" y="-590"/>
     <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="_|!b?)J;$ty#FTa?N/Va" x="-770" y="-470">
       <value name="VALUE">
@@ -747,5 +705,5 @@
       </next>
     </block>
   </tab>
-  <editorsettings viewport-x="1091.4" viewport-y="28" viewport-w="739.6" viewport-h="473" viewport-hidden="false" toolbox-library-mode="true" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="1091.4" viewport-y="28" viewport-w="739.6" viewport-h="473" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
