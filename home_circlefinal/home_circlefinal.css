@@ -35,3 +35,142 @@ body {
 
 /* removes tap blinking on ios devices */
 * { -webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+.body {
+    background-color: #000;
+  }
+  
+  .preloader_div {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #000;
+    box-shadow: 1px 1px 3px 0 #000;
+  }
+  
+  .loader_bar_container {
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 300px;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  
+  .loader_bar {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 2;
+    width: 50%;
+    height: 16px;
+    border: 1px none #000;
+    border-radius: 0px;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#000), color-stop(47%, #fff), to(#000));
+    background-image: linear-gradient(90deg, #000, #fff 47%, #000);
+    opacity: 1;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    font-style: italic;
+  }
+  
+  .loader_text {
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    right: 0%;
+    bottom: auto;
+    z-index: 3;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0px;
+    background-color: #000;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #dbdbdb;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    background-clip: border-box;
+  }
+  
+  .loading_bar {
+    position: absolute;
+    left: 0%;
+    top: 40.3%;
+    right: 0%;
+    bottom: auto;
+    display: inline-block;
+    width: 100%;
+    height: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+  }
+  
+  .div-block {
+    position: absolute;
+    left: 0%;
+    top: 40.2%;
+    right: 0%;
+    bottom: auto;
+    width: 300px;
+    height: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsla(0, 0%, 100%, 0);
+    line-height: 15px;
+  }
+  
+  .loader_container {
+    position: absolute;
+    left: 0%;
+    top: 40.3%;
+    right: 0%;
+    bottom: auto;
+    z-index: 1;
+    width: 300px;
+    height: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(56, 56, 56, 0);
+    color: #979191;
+  }
+  
+  .loader {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 15px;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#000), color-stop(53%, #fff), color-stop(97%, #000));
+    background-image: linear-gradient(90deg, #000, #fff 53%, #000 97%);
+  }
+  
+  .text {
+    position: absolute;
+    top: -3px;
+    z-index: 3;
+    width: 300px;
+    height: 18px;
+    padding-bottom: 0px;
+    background-color: #000;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
