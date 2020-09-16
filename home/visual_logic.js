@@ -687,10 +687,10 @@ registerOnClick('red_door', function() {
   openWebPage('https://repose.space/fox.html', 'NEW');
 }, function() {});
 registerOnClick('Radiator ', function() {
-  openWebPage('https://repose.space/kallax.html', 'NEW');
+  openWebPage('https://spleen.hotglue.me/', 'NEW');
 }, function() {});
 registerOnClick('candle.003', function() {
-  openWebPage('https://repose.space/kallax.html', 'NEW');
+  openWebPage('https://spleen.hotglue.me/', 'NEW');
 }, function() {});
 
 
